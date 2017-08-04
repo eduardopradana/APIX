@@ -1,0 +1,41 @@
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\bin\Debug\alert.exe
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\bin\Debug\alert.pdb
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\obj\x86\Debug\alert.Form1.resources
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\obj\x86\Debug\alert.Properties.Resources.resources
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\obj\x86\Debug\alert.csproj.GenerateResource.Cache
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\obj\x86\Debug\alert.exe
+c:\users\eduardo_p\documents\visual studio 2010\Projects\alert\alert\obj\x86\Debug\alert.pdb
+F:\alert\alert\bin\Debug\alert.exe
+F:\alert\alert\bin\Debug\alert.pdb
+F:\alert\alert\obj\x86\Debug\alert.Properties.Resources.resources
+F:\alert\alert\obj\x86\Debug\alert.csproj.GenerateResource.Cache
+F:\alert\alert\obj\x86\Debug\alert.exe
+F:\alert\alert\obj\x86\Debug\alert.pdb
+F:\alert\alert\obj\x86\Debug\alert.Timer.resources
+F:\alert\alert\obj\x86\Debug\alert.Popper.resources
+F:\alert\alert\bin\Debug\alert.exe.config
+H:\alert\alert\bin\Debug\alert.exe.config
+H:\alert\alert\obj\x86\Debug\alert.exe
+H:\alert\alert\obj\x86\Debug\alert.pdb
+H:\alert\alert\obj\x86\Debug\alert.csprojResolveAssemblyReference.cache
+H:\alert\alert\obj\x86\Debug\alert.Timer.resources
+H:\alert\alert\obj\x86\Debug\alert.Popper.resources
+H:\alert\alert\obj\x86\Debug\alert.Properties.Resources.resources
+H:\alert\alert\obj\x86\Debug\alert.csproj.GenerateResource.Cache
+H:\alert\alert\bin\Debug\alert.exe
+H:\alert\alert\bin\Debug\alert.pdb
+I:\alert\alert\bin\Debug\alert.exe.config
+I:\alert\alert\obj\x86\Debug\alert.exe
+I:\alert\alert\obj\x86\Debug\alert.pdb
+I:\alert\alert\bin\Debug\alert.exe
+I:\alert\alert\bin\Debug\alert.pdb
+I:\alert\alert\obj\x86\Debug\alert.csprojResolveAssemblyReference.cache
+I:\alert\alert\obj\x86\Debug\alert.Timer.resources
+I:\alert\alert\obj\x86\Debug\alert.Popper.resources
+I:\alert\alert\obj\x86\Debug\alert.Properties.Resources.resources
+I:\alert\alert\obj\x86\Debug\alert.csproj.GenerateResource.Cache
+F:\alert\alert\bin\Debug\Microsoft.Lync.Model.dll
+F:\alert\alert\bin\Debug\Microsoft.Office.Uc.dll
+F:\alert\alert\bin\Debug\Microsoft.Lync.Model.xml
+I:\alert\alert\bin\Debug\Microsoft.Office.Uc.dll
+I:\alert\alert\bin\Debug\Microsoft.Lync.Model.xml
