@@ -39,3 +39,15 @@ F:\alert\alert\bin\Debug\Microsoft.Office.Uc.dll
 F:\alert\alert\bin\Debug\Microsoft.Lync.Model.xml
 I:\alert\alert\bin\Debug\Microsoft.Office.Uc.dll
 I:\alert\alert\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\bin\Debug\alert.exe.config
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\obj\x86\Debug\alert.exe
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\obj\x86\Debug\alert.pdb
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\bin\Debug\alert.exe
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\bin\Debug\alert.pdb
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\bin\Debug\Microsoft.Lync.Model.dll
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\bin\Debug\Microsoft.Office.Uc.dll
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\bin\Debug\Microsoft.Lync.Model.xml
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\obj\x86\Debug\alert.Timer.resources
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\obj\x86\Debug\alert.Popper.resources
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\obj\x86\Debug\alert.Properties.Resources.resources
+C:\Users\eduardo_p\Documents\GitHub\APIX\alert\obj\x86\Debug\alert.csproj.GenerateResource.Cache

@@ -19,7 +19,7 @@ namespace alert
 
         public static NotifyIcon statusBarIcon = new NotifyIcon()
         {
-            Text = "Anti Procrastinating Impulse X",
+            Text = "Anti Procrastination Impulse X",
             Icon = Properties.Resources.logoM,
             Visible = true
         };
