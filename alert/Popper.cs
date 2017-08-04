@@ -29,11 +29,11 @@ namespace alert
         Font myFont, myFont2;
         List<string> quotes = new List<string>();
         List<string> characters = new List<string>();
-                
+       
         public Popper()
         {
             InitializeComponent();    
-            generateChart();
+            //generateChart();
             idlePeriod.Text = "       You have been idle for " + "00:00:00";
             quotes.Add("\"The way to get started \n  is to quit talking and begin doing.\"");
             quotes.Add("\"Your Future is created \n  by what you do today.\"");
@@ -116,6 +116,26 @@ namespace alert
             button2.FlatStyle = FlatStyle.Flat;
             button2.FlatAppearance.BorderSize = 0;
 
+            chartButton1.BackColor = System.Drawing.ColorTranslator.FromHtml("#e17126");
+            chartButton1.TabStop = false;
+            chartButton1.Image = Properties.Resources.chart36;
+            chartButton1.TextImageRelation = TextImageRelation.ImageBeforeText;
+            chartButton1.FlatStyle = FlatStyle.Flat;
+            chartButton1.FlatAppearance.BorderSize = 0;
+            chartButton1.Height = 50;
+            chartButton1.Width = 50;
+            chartButton1.Left = 70;
+
+            configButton.BackColor = System.Drawing.ColorTranslator.FromHtml("#e17126");
+            configButton.TabStop = false;
+            configButton.Image = Properties.Resources.gear36;
+            configButton.TextImageRelation = TextImageRelation.ImageBeforeText;
+            configButton.FlatStyle = FlatStyle.Flat;
+            configButton.FlatAppearance.BorderSize = 0;
+            configButton.Height = 50;
+            configButton.Width = 50;
+            configButton.Left = 70;
+
             this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject(characters[rnd.Next(characters.Count)]);
         }
 
@@ -140,6 +160,17 @@ namespace alert
         private void chart1_Click(object sender, EventArgs e)
         {
 
+        }
+    }
+
+    public class RoundButton : Button
+    {
+        protected override void OnPaint(System.Windows.Forms.PaintEventArgs e)
+        {
+            GraphicsPath grPath = new GraphicsPath();
+            grPath.AddEllipse(0, 0, ClientSize.Width, ClientSize.Height);
+            this.Region = new System.Drawing.Region(grPath);
+            base.OnPaint(e);
         }
     }
 }

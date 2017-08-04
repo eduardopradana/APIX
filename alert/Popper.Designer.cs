@@ -38,8 +38,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.quoteLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.configButton = new alert.RoundButton();
+            this.chartButton1 = new alert.RoundButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -103,15 +104,6 @@
             this.quoteLabel.TabIndex = 0;
             this.quoteLabel.Text = "                                           ";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(554, 375);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
-            // 
             // chart1
             // 
             chartArea1.BackColor = System.Drawing.Color.Transparent;
@@ -120,7 +112,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(82, 398);
+            this.chart1.Location = new System.Drawing.Point(357, 398);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,10 +124,27 @@
             series1.Legend = "Legend1";
             series1.Name = "NotWorking";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(730, 300);
+            this.chart1.Size = new System.Drawing.Size(455, 300);
             this.chart1.TabIndex = 11;
             this.chart1.Text = "chart1";
+            this.chart1.Visible = false;
             this.chart1.Click += new System.EventHandler(this.chart1_Click);
+            // 
+            // configButton
+            // 
+            this.configButton.Location = new System.Drawing.Point(97, 635);
+            this.configButton.Name = "configButton";
+            this.configButton.Size = new System.Drawing.Size(75, 23);
+            this.configButton.TabIndex = 13;
+            this.configButton.UseVisualStyleBackColor = true;
+            // 
+            // chartButton1
+            // 
+            this.chartButton1.Location = new System.Drawing.Point(97, 578);
+            this.chartButton1.Name = "chartButton1";
+            this.chartButton1.Size = new System.Drawing.Size(75, 23);
+            this.chartButton1.TabIndex = 12;
+            this.chartButton1.UseVisualStyleBackColor = true;
             // 
             // Popper
             // 
@@ -143,8 +152,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(841, 710);
+            this.Controls.Add(this.configButton);
+            this.Controls.Add(this.chartButton1);
             this.Controls.Add(this.chart1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
@@ -158,7 +168,6 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -170,7 +179,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label quoteLabel;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private RoundButton chartButton1;
+        private RoundButton configButton;
     }
 }

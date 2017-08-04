@@ -11,6 +11,7 @@ using System.Media;
 using System.Configuration;
 using System.Diagnostics;
 using Microsoft.Lync.Model;
+using System.Drawing.Drawing2D;
 
 namespace alert
 {
@@ -29,7 +30,7 @@ namespace alert
         private string lyncUserName= "there"; //default value if not getting the lync user name
         private bool allowshowdisplay = true;
         private int ticks = 0;
-        const int cRem = 10; //seconds
+        const int cRem = 5; //seconds
         private int idleTimeSpec;
         private int miniIdleTimeSpec;
         private double timer3ticks = 0;
@@ -38,6 +39,7 @@ namespace alert
         private bool miniAlertON;
         
         SoundPlayer sound = new SoundPlayer(Properties.Resources.thunderwav);
+
 
         
         private void Form1_Load(object sender, EventArgs e)
@@ -335,5 +337,5 @@ namespace alert
         //make it startup
                 
         //to be a smart app, it needs to check for meeting application presence and even better lync status because lync connects to outlook
-    }
+    }    
 }
